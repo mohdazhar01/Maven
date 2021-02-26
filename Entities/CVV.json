@@ -1,0 +1,35 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "CVV",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "459",
+      "synonyms": [
+        "459"
+      ]
+    },
+    {
+      "value": "658",
+      "synonyms": [
+        "658"
+      ]
+    },
+    {
+      "value": "754",
+      "synonyms": [
+        "754"
+      ]
+    },
+    {
+      "value": "787",
+      "synonyms": [
+        "787"
+      ]
+    }
+  ],
+  "id": "4a3346a9-cfd1-4ca0-be01-d676ee16300b",
+  "isOverridable": false
+}

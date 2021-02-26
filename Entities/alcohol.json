@@ -1,0 +1,53 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "alcohol",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "alcohol",
+      "synonyms": [
+        "alcohol"
+      ]
+    },
+    {
+      "value": "beer",
+      "synonyms": [
+        "beer"
+      ]
+    },
+    {
+      "value": "champange",
+      "synonyms": [
+        "champange"
+      ]
+    },
+    {
+      "value": "vodaka",
+      "synonyms": [
+        "vodaka"
+      ]
+    },
+    {
+      "value": "vodka",
+      "synonyms": [
+        "vodka"
+      ]
+    },
+    {
+      "value": "whisky",
+      "synonyms": [
+        "whisky"
+      ]
+    },
+    {
+      "value": "wine",
+      "synonyms": [
+        "wine"
+      ]
+    }
+  ],
+  "id": "4328239c-26bc-469a-9021-e5489da79db6",
+  "isOverridable": false
+}

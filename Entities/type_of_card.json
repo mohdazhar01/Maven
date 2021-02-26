@@ -1,0 +1,30 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "type_of_card",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "ATM Card",
+      "synonyms": [
+        "ATM Card"
+      ]
+    },
+    {
+      "value": "Credit Card",
+      "synonyms": [
+        "Credit Card"
+      ]
+    },
+    {
+      "value": "Debit Card",
+      "synonyms": [
+        "ATM Card",
+        "Debit Card"
+      ]
+    }
+  ],
+  "id": "3cc4c4fb-3dad-45a2-a52d-86956ead1af4",
+  "isOverridable": false
+}

@@ -1,0 +1,18 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "username",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "tom",
+      "synonyms": [
+        "tom",
+        "TOM"
+      ]
+    }
+  ],
+  "id": "6e9ebceb-ad87-4063-9db6-92138cd814f0",
+  "isOverridable": false
+}

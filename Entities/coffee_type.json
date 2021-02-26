@@ -1,0 +1,47 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "coffee_type",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Espresso",
+      "synonyms": [
+        "Espresso"
+      ]
+    },
+    {
+      "value": "Frappuccino",
+      "synonyms": [
+        "Frappuccino"
+      ]
+    },
+    {
+      "value": "cappuccino",
+      "synonyms": [
+        "cappuccino"
+      ]
+    },
+    {
+      "value": "cold coffee",
+      "synonyms": [
+        "cold coffee"
+      ]
+    },
+    {
+      "value": "latte",
+      "synonyms": [
+        "latte"
+      ]
+    },
+    {
+      "value": "mocha",
+      "synonyms": [
+        "mocha"
+      ]
+    }
+  ],
+  "id": "7c1980ce-b8a7-4aed-b448-223199dea7de",
+  "isOverridable": false
+}

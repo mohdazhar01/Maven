@@ -1,0 +1,48 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "add_ons",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "chocolate",
+      "synonyms": [
+        "chocolate"
+      ]
+    },
+    {
+      "value": "coconut milk",
+      "synonyms": [
+        "coconut",
+        "coconut milk"
+      ]
+    },
+    {
+      "value": "hazelnut",
+      "synonyms": [
+        "hazelnut"
+      ]
+    },
+    {
+      "value": "ice cream",
+      "synonyms": [
+        "ice cream"
+      ]
+    },
+    {
+      "value": "irish cream",
+      "synonyms": [
+        "irish cream"
+      ]
+    },
+    {
+      "value": "whipped cream",
+      "synonyms": [
+        "whipped cream"
+      ]
+    }
+  ],
+  "id": "cebb6df5-e18f-4735-9cf4-d5268cd2eeb2",
+  "isOverridable": false
+}

@@ -1,0 +1,33 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "water",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "chill",
+      "synonyms": [
+        "chill",
+        "cold",
+        "low temperature"
+      ]
+    },
+    {
+      "value": "hot",
+      "synonyms": [
+        "hot"
+      ]
+    },
+    {
+      "value": "normal",
+      "synonyms": [
+        "medium",
+        "mid",
+        "normal"
+      ]
+    }
+  ],
+  "id": "97836031-1363-4366-a534-447330875d66",
+  "isOverridable": false
+}

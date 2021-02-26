@@ -1,0 +1,59 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "sauce_type",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "barbecue sauce",
+      "synonyms": [
+        "barbecue sauce"
+      ]
+    },
+    {
+      "value": "garlic sauce",
+      "synonyms": [
+        "garlic sauce"
+      ]
+    },
+    {
+      "value": "hot sauce",
+      "synonyms": [
+        "hot sauce"
+      ]
+    },
+    {
+      "value": "marinara sauce",
+      "synonyms": [
+        "marinara sauce"
+      ]
+    },
+    {
+      "value": "mexican sauce",
+      "synonyms": [
+        "mexican sauce"
+      ]
+    },
+    {
+      "value": "peanut sauce",
+      "synonyms": [
+        "peanut sauce"
+      ]
+    },
+    {
+      "value": "schezwan sauce",
+      "synonyms": [
+        "schezwan sauce"
+      ]
+    },
+    {
+      "value": "tomato sauce",
+      "synonyms": [
+        "tomato sauce"
+      ]
+    }
+  ],
+  "id": "4d8e03dc-cf1a-444e-9148-544014ed94ec",
+  "isOverridable": false
+}

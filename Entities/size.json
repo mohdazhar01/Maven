@@ -1,0 +1,35 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "size",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "large",
+      "synonyms": [
+        "big",
+        "large"
+      ]
+    },
+    {
+      "value": "medium",
+      "synonyms": [
+        "med",
+        "medium",
+        "reg",
+        "regular"
+      ]
+    },
+    {
+      "value": "small",
+      "synonyms": [
+        "cheap",
+        "low cost",
+        "small"
+      ]
+    }
+  ],
+  "id": "e39eb187-6492-43fb-8ef1-f8912af97738",
+  "isOverridable": false
+}

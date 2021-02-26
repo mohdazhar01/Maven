@@ -1,0 +1,23 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "uniqid",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "user007",
+      "synonyms": [
+        "user007"
+      ]
+    },
+    {
+      "value": "user321",
+      "synonyms": [
+        "user321"
+      ]
+    }
+  ],
+  "id": "29913f64-ff2b-4a81-ad6e-c6c1e2117767",
+  "isOverridable": false
+}
