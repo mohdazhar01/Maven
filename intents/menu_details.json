@@ -1,0 +1,191 @@
+{
+  "id": "a924c9bb-dd2c-412c-b9f8-79e578cae929",
+  "name": "menu_details",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "The different toppings which are available for today are :\nOnion\npepperoni\nCheese\nMushroom \nBlack olives\nGreen peppers. \n\n    which one you want to eat today???"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to have a look at the menu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8ec8585a-be4c-443a-ba8d-0fc7679e6fb8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "display menu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "256ed6c8-39c3-44d5-b6dd-4899f27cd6aa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to check the menu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7786687-b1ac-4759-98e5-24c62782c8ac",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do you have?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3b5f482e-76ab-469c-b4d0-2c2c12d1f4d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to see the menu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4bc5e3b3-3af8-4d48-a890-8be0c61705ee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what's the menu?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a07bdbac-7924-4fbb-8f0c-6f8e019c41f6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i am hungry",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6c635785-d010-4553-a449-2a4f9678effd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how many different pizzas you have?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc553dda-b584-437e-b9d8-3c9627bc3737",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want the menu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f0aae85d-50e3-4463-97b1-1fa320184aae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "show me the menu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9af2f94b-f6ce-445c-acd9-da87c6713e2a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "today",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "'s menu please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe27679e-00cd-4edd-9f94-da5b3a53af24",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is the menu?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "41a52a6b-c8e0-404b-b8c9-21f8a7704554",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

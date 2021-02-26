@@ -1,0 +1,153 @@
+{
+  "id": "6656ae96-1b34-4794-975d-443b2a6a25e4",
+  "name": "card_details",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "Payment_Processing"
+  ],
+  "contexts": [
+    "Payment_Processing"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Payment_Processing",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "card_number",
+          "dataType": "@card_number",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please Enter the Card Number",
+            "Enter the card number"
+          ],
+          "value": "$card_number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "CVV",
+          "dataType": "@CVV",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please enter the CVV",
+            "Enter the CVV"
+          ],
+          "value": "$CVV",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "6824598716543256",
+          "userDefined": true,
+          "alias": "card_number",
+          "meta": "@card_number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "875",
+          "userDefined": true,
+          "alias": "CVV",
+          "meta": "@CVV"
+        }
+      ],
+      "count": 0,
+      "id": "092b1526-5d99-4bc6-8e7b-9a85be279248",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "3654874536928456",
+          "userDefined": true,
+          "alias": "card_number",
+          "meta": "@card_number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "984",
+          "userDefined": true,
+          "alias": "CVV",
+          "meta": "@CVV"
+        }
+      ],
+      "count": 0,
+      "id": "dfb07378-bc1d-4f27-b024-8fef71d5af37",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "5712449748994745",
+          "userDefined": true,
+          "alias": "card_number",
+          "meta": "@card_number"
+        },
+        {
+          "text": "  ",
+          "userDefined": false
+        },
+        {
+          "text": "754",
+          "userDefined": true,
+          "alias": "CVV",
+          "meta": "@CVV"
+        }
+      ],
+      "count": 0,
+      "id": "0cde8345-dad5-4837-bc79-30855f4d5ecb",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

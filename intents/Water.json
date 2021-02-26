@@ -1,0 +1,192 @@
+{
+  "id": "fcdbdc81-d5b7-41d9-837b-3981ca07bfe6",
+  "name": "Water",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "type",
+          "dataType": "@water",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Do you want chill water or Normal water ?",
+            "Normal water or cold water ??"
+          ],
+          "value": "$type",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Quantity",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "How many water bottles you want ?",
+            "please mention the count water bottles"
+          ],
+          "value": "$Quantity",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Okay. Your order for Water is confirmed!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want",
+          "userDefined": false
+        },
+        {
+          "text": " 3",
+          "userDefined": true,
+          "alias": "Quantity",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " bottles of ",
+          "userDefined": false
+        },
+        {
+          "text": "water",
+          "userDefined": true,
+          "alias": "type",
+          "meta": "@water"
+        }
+      ],
+      "count": 0,
+      "id": "f6f0bfbb-e15f-41fe-a2e4-036949807edf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want ",
+          "userDefined": false
+        },
+        {
+          "text": "two",
+          "userDefined": true,
+          "alias": "Quantity",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "water",
+          "userDefined": true,
+          "alias": "type",
+          "meta": "@water"
+        },
+        {
+          "text": " bottles",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1dd3a1dc-2a82-4183-a778-c5bb54e724d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to drink ",
+          "userDefined": false
+        },
+        {
+          "text": "water",
+          "userDefined": true,
+          "alias": "type",
+          "meta": "@water"
+        }
+      ],
+      "count": 0,
+      "id": "8fcc568e-57ec-4d56-ac8d-346643c57450",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need ",
+          "userDefined": false
+        },
+        {
+          "text": "water",
+          "userDefined": true,
+          "alias": "type",
+          "meta": "@water"
+        },
+        {
+          "text": " bottle",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "775ae8cf-7792-4e6f-bcca-49485df950cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need ",
+          "userDefined": false
+        },
+        {
+          "text": "water",
+          "userDefined": true,
+          "alias": "type",
+          "meta": "@water"
+        }
+      ],
+      "count": 0,
+      "id": "fe6496eb-0cc0-4237-be27-2bf2be1bb9bc",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

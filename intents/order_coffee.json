@@ -1,0 +1,352 @@
+{
+  "id": "1a708976-4e4a-4536-9d86-8db409eaa2cf",
+  "name": "order_coffee",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "coffee_type",
+          "dataType": "@coffee_type",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "What type of coffee do you want?",
+            "Do you want an espresso, cappuccino, frappuccino, cold coffee, latte or mocha?",
+            "which coffee do you want?"
+          ],
+          "value": "$coffee_type",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "add_ons",
+          "dataType": "@add_ons",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Do you want any add ons?",
+            "Do you want coconut milk, chocolate, whipped cream or hazelnut with it?",
+            "Do you want Irish cream, coconut milk, ice cream or hazelnut on it?"
+          ],
+          "value": "$add_ons",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "condition": "",
+          "title": "Your $coffee_type will reach you soon!",
+          "image": {
+            "url": "https://image.freepik.com/foto-gratis/vista-aerea-varios-cafes_53876-63196.jpg",
+            "accessibilityText": "Coffee"
+          },
+          "buttons": [
+            {
+              "openUrlAction": {}
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Your $coffee_type with $add_ons is on the way!",
+            "Your $coffee_type with $add_ons will reach you shortly!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need a coffee",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "97062b9c-4bd8-4a07-8ae6-b1b267c99695",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "send me a coffee",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4bec0cd7-4f47-45e6-8791-bd9d21301457",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a coffee",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ad668016-764b-4f7e-81de-f23aa7959f57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "send me an ",
+          "userDefined": false
+        },
+        {
+          "text": "espresso",
+          "userDefined": false,
+          "alias": "coffee_type",
+          "meta": "@coffee_type"
+        },
+        {
+          "text": " with ",
+          "userDefined": false
+        },
+        {
+          "text": "irish cream",
+          "userDefined": false,
+          "alias": "add_ons",
+          "meta": "@add_ons"
+        }
+      ],
+      "count": 0,
+      "id": "88080caa-77fe-46ba-8546-10843b0fba99",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "send me a ",
+          "userDefined": false
+        },
+        {
+          "text": "mocha",
+          "userDefined": false,
+          "alias": "coffee_type",
+          "meta": "@coffee_type"
+        }
+      ],
+      "count": 0,
+      "id": "e81579eb-f9f3-4581-a847-6f7d79a1f075",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a ",
+          "userDefined": false
+        },
+        {
+          "text": "latte",
+          "userDefined": false,
+          "alias": "coffee_type",
+          "meta": "@coffee_type"
+        },
+        {
+          "text": " with ",
+          "userDefined": false
+        },
+        {
+          "text": "hazelnut",
+          "userDefined": false,
+          "alias": "add_ons",
+          "meta": "@add_ons"
+        }
+      ],
+      "count": 0,
+      "id": "26d52f6d-01f3-4a6b-bbb6-ad2c266ba8cd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a ",
+          "userDefined": false
+        },
+        {
+          "text": "mocha",
+          "userDefined": false,
+          "alias": "coffee_type",
+          "meta": "@coffee_type"
+        }
+      ],
+      "count": 0,
+      "id": "01844ede-6f70-4db9-b6bc-58cc73887c9b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a ",
+          "userDefined": false
+        },
+        {
+          "text": "latte",
+          "userDefined": false,
+          "alias": "coffee_type",
+          "meta": "@coffee_type"
+        }
+      ],
+      "count": 0,
+      "id": "7dfcc9e7-fed1-41cd-aa85-aa8882507dec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a ",
+          "userDefined": false
+        },
+        {
+          "text": "cold coffee",
+          "userDefined": false,
+          "alias": "coffee_type",
+          "meta": "@coffee_type"
+        },
+        {
+          "text": " with ",
+          "userDefined": false
+        },
+        {
+          "text": "ice cream",
+          "userDefined": true,
+          "alias": "add_ons",
+          "meta": "@add_ons"
+        }
+      ],
+      "count": 0,
+      "id": "0b15c4ac-5ccd-4437-807a-ae21c693c0ea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a ",
+          "userDefined": false
+        },
+        {
+          "text": "cappuccino",
+          "userDefined": false,
+          "alias": "coffee_type",
+          "meta": "@coffee_type"
+        },
+        {
+          "text": " with ",
+          "userDefined": false
+        },
+        {
+          "text": "ice cream",
+          "userDefined": false,
+          "alias": "add_ons",
+          "meta": "@add_ons"
+        }
+      ],
+      "count": 0,
+      "id": "10fbf9ba-74db-4840-b2aa-b2cf991c723f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a ",
+          "userDefined": false
+        },
+        {
+          "text": "frappuccino",
+          "userDefined": false,
+          "alias": "coffee_type",
+          "meta": "@coffee_type"
+        },
+        {
+          "text": " with ",
+          "userDefined": false
+        },
+        {
+          "text": "whipped cream",
+          "userDefined": false,
+          "alias": "add_ons",
+          "meta": "@add_ons"
+        }
+      ],
+      "count": 0,
+      "id": "7219572c-dc07-435e-8903-af3326af6ce6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want an ",
+          "userDefined": false
+        },
+        {
+          "text": "espresso",
+          "userDefined": false,
+          "alias": "coffee_type",
+          "meta": "@coffee_type"
+        },
+        {
+          "text": " with ",
+          "userDefined": false
+        },
+        {
+          "text": "coconut milk",
+          "userDefined": false,
+          "alias": "add_ons",
+          "meta": "@add_ons"
+        }
+      ],
+      "count": 0,
+      "id": "ae8e5762-dd30-45b6-bc22-cf10b712d56f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

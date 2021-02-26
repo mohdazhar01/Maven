@@ -1,0 +1,92 @@
+{
+  "id": "cc1f0692-5b0c-41a7-baab-ef9fbfb32d74",
+  "name": "faq_parking",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Parking is available for 5 cars and 2 bikes",
+            "We have a space for 5 cars and 2 bikes",
+            "Yes we have parking!",
+            "Parking space is available!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Parking?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e3eef28a-b566-4b84-a482-3b7da3aee8b1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is parking available?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca534b62-decb-486a-a23d-907d2623c997",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can i park my car there?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "156fce88-22f6-4b83-8e42-a46c744521ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have a parking space?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cd2f9679-4b52-4077-9af5-c723a81629a5",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

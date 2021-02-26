@@ -1,0 +1,215 @@
+{
+  "id": "9e85e6b3-7f38-4468-be07-94ee6f9deeba",
+  "name": "discount",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "we are providing the 50% discount on the cheese pizza !!!",
+            "The cheap and best pizza for today is cheese pizza ...which will save your money and full your stomach !",
+            "we have a special discount of rupees 50 on the cheese pizza !"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "cheapest",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " pizza",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "34fc8d57-1b2c-480f-88b0-fb8fd15b0f64",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "offers",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f0f4b7a9-d193-4d67-bcbf-204ce47e500c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you give a discounts",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5d6c83d8-fe87-4e4d-97ae-b54e38763081",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need a discount",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "67907b2b-650a-4b24-9e59-fd70a709cdf7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can i get a discount?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f9ea915b-1017-4bff-9be7-28e70a435dc6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you provide me a discount?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f4e35a6b-3f0c-49d9-9688-4f5ca0c8cd7d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want a discount",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d0421c9f-f596-4948-b1bf-bbfc4606fc63",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Do you have any discounts?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca99a59d-aa42-4310-afce-e29d1be9b988",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want ",
+          "userDefined": false
+        },
+        {
+          "text": "low-cost",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " pizza",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f7566ea3-dfa0-4eb1-a417-697b35e23af7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i don't have money",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "960b2a7a-3907-4ea8-936a-c763afbb4771",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i have less money",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dfc14cbc-e18e-4656-89db-8242b4c62ac8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i have low budget",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4d8a5f64-bd4f-49df-a3a5-dc5e5c22e1e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is there any discount",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3419f99a-d135-4493-9eee-34123333b560",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

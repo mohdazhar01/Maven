@@ -1,0 +1,175 @@
+{
+  "id": "58777493-b576-4eed-8f2b-b085b3871911",
+  "name": "payment",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "messages": [
+        {
+          "type": "list_card",
+          "platform": "google",
+          "condition": "",
+          "title": "Payment Options",
+          "items": [
+            {
+              "image": {
+                "url": "https://www.paisabazaar.com/wp-content/uploads/2018/08/SBI-EMV-Chip.jpg",
+                "accessibilityText": "Debit Card"
+              },
+              "description": "",
+              "title": "Debit Card",
+              "optionInfo": {
+                "key": "Debit Card",
+                "synonyms": []
+              }
+            },
+            {
+              "image": {
+                "url": "https://creditkarmacdn-a.akamaihd.net/res/content/reviews/CCFifthThird02/small.png",
+                "accessibilityText": "Credit Card"
+              },
+              "description": "",
+              "title": "Credit Card",
+              "optionInfo": {
+                "key": "Credit Card",
+                "synonyms": []
+              }
+            },
+            {
+              "image": {
+                "url": "http://static.navodayatimes.in/multimedia/15_20_054338061net-banking111-ll.jpg",
+                "accessibilityText": "Net Banking"
+              },
+              "description": "",
+              "title": "Net Banking",
+              "optionInfo": {
+                "key": "Net Banking",
+                "synonyms": []
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Net Banking"
+            },
+            {
+              "title": "Debit Card"
+            },
+            {
+              "title": "Credit Card"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Starting a secured connection for payment"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "take payment",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6b2531e-0200-42c0-94c1-2ef64d97622d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "bill payment",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "193976f7-9b55-45e0-b0d7-ad833369c203",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to pay my bill",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93b2b56c-8529-47cb-8c0f-ce9498bb132f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "initiate payment",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "44e3343c-b674-422a-b8f5-ec966796b061",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to pay",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75cfb031-d1cb-40b3-a9ce-c5574d88290c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to make payment",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6943082f-634a-4c4c-806b-bc9a51bf2533",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

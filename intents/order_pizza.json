@@ -1,0 +1,559 @@
+{
+  "id": "9004727c-cc02-4a47-a7ca-640ed9b79974",
+  "name": "order_pizza",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "size",
+          "dataType": "@size",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "What size do you want?",
+            "Do you want a small, medium or a large pizza?",
+            "Please tell the size",
+            "Small, regular or large?"
+          ],
+          "value": "$size",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "toppings",
+          "dataType": "@toppings",
+          "isList": true,
+          "required": true,
+          "prompts": [
+            "What toppings do you want?",
+            "Do you want any toppings of falafel, salami, jalapenos, pineapple, olives, mozarella, corn ?",
+            "Do you want any toppings?"
+          ],
+          "value": "$toppings",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "crust",
+          "dataType": "@crust",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "What type of crust do you want?",
+            "Do you want a thin, thick, deep, stuffed or flat crust?",
+            "Which crust do you want?"
+          ],
+          "value": "$crust",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "google": true
+      },
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "condition": "",
+          "subtitle": "Your Pizza is on its way!",
+          "formattedText": "Size : $size, Toppings : $toppings, Crust : $crust",
+          "image": {
+            "url": "https://ratlamee.com/wp-content/uploads/2018/09/Veg-Pizza-1.jpg",
+            "accessibilityText": "Pizza"
+          },
+          "buttons": [
+            {
+              "openUrlAction": {}
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Your $size pizza with $toppings and $crust crust is on the way!",
+            "Your $size pizza with $toppings and $crust will be delivered soon!",
+            "Your order for the $crust Pizza with $toppings and $crust is placed!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need a ",
+          "userDefined": false
+        },
+        {
+          "text": "regular",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " pizza",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee2b166a-9b3f-41fa-8458-07fcd1026e72",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need a ",
+          "userDefined": false
+        },
+        {
+          "text": "small",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " pizza",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "135f56ef-0491-4153-8d7e-b13ac6fbc8f3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need a ",
+          "userDefined": false
+        },
+        {
+          "text": "large",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " pizza",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a341d088-dc08-4325-b9d2-f47f3aa82862",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to eat a pizza",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25436f15-c0b3-485e-a2d2-3e6cdacbcbae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a pizza",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4dc3e4c-5844-41fb-8b86-5d170b73f6b1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need a pizza",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e66c0c43-63f5-456d-a467-3ccbae04d971",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to eat a ",
+          "userDefined": false
+        },
+        {
+          "text": "large",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " pizza with ",
+          "userDefined": false
+        },
+        {
+          "text": "jalapenos",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "pineapple",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "corn",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": " with a ",
+          "userDefined": false
+        },
+        {
+          "text": "flat",
+          "userDefined": false,
+          "alias": "crust",
+          "meta": "@crust"
+        },
+        {
+          "text": " crust",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c55304c4-d55f-4a94-972b-00ef99b2052b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "send me a ",
+          "userDefined": false
+        },
+        {
+          "text": "small",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " pizza with ",
+          "userDefined": false
+        },
+        {
+          "text": "olives",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "corn",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "bell pepper",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "mozarella",
+          "userDefined": true,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": " and a ",
+          "userDefined": false
+        },
+        {
+          "text": "thin",
+          "userDefined": false,
+          "alias": "crust",
+          "meta": "@crust"
+        },
+        {
+          "text": " crust",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a4cbb407-0323-4408-a433-da66534fef99",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "send me a ",
+          "userDefined": false
+        },
+        {
+          "text": "reg",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " pizza with ",
+          "userDefined": false
+        },
+        {
+          "text": "falafel",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "salami",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "pineapple",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": " and a ",
+          "userDefined": false
+        },
+        {
+          "text": "thick",
+          "userDefined": false,
+          "alias": "crust",
+          "meta": "@crust"
+        },
+        {
+          "text": " crust",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "17137eec-9198-401a-8985-5a66a9338eeb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a ",
+          "userDefined": false
+        },
+        {
+          "text": "med",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " pizza with ",
+          "userDefined": false
+        },
+        {
+          "text": "mozarella",
+          "userDefined": true,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "olives",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "pineapple",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": " and a ",
+          "userDefined": false
+        },
+        {
+          "text": "stuffed",
+          "userDefined": false,
+          "alias": "crust",
+          "meta": "@crust"
+        },
+        {
+          "text": " crust",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cd48b620-0b7f-4561-88b1-1000b2466526",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a ",
+          "userDefined": false
+        },
+        {
+          "text": "large",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " pizza with ",
+          "userDefined": false
+        },
+        {
+          "text": "olives",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "jalapenos",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "pineapple",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": ", ",
+          "userDefined": false
+        },
+        {
+          "text": "corn",
+          "userDefined": false,
+          "alias": "toppings",
+          "meta": "@toppings"
+        },
+        {
+          "text": " with a ",
+          "userDefined": false
+        },
+        {
+          "text": "deep",
+          "userDefined": false,
+          "alias": "crust",
+          "meta": "@crust"
+        },
+        {
+          "text": " crust",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c3be9e50-5d48-4120-b06f-b56a257017fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to order a pizza",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "72d20290-51e9-48fb-820a-61f72201b00b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

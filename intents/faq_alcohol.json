@@ -1,0 +1,193 @@
+{
+  "id": "2f56da50-2f96-4d30-a5ee-9ca6652ac2f7",
+  "name": "faq_alcohol",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "alcohol",
+          "dataType": "@alcohol",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$alcohol",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "we don't serve alcohol!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vodaka",
+          "userDefined": true,
+          "alias": "alcohol",
+          "meta": "@alcohol"
+        },
+        {
+          "text": " please",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f9961926-571d-44e8-a963-e455536b58bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can i have ",
+          "userDefined": false
+        },
+        {
+          "text": "vodka",
+          "userDefined": true,
+          "alias": "alcohol",
+          "meta": "@alcohol"
+        }
+      ],
+      "count": 0,
+      "id": "cb943234-8650-4c8f-b256-14c90b4d12e7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you order ",
+          "userDefined": false
+        },
+        {
+          "text": "alcohol",
+          "userDefined": false,
+          "alias": "alcohol",
+          "meta": "@alcohol"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "96466cba-bd67-4159-935a-0db86e0a2d2c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "order ",
+          "userDefined": false
+        },
+        {
+          "text": "whisky",
+          "userDefined": false,
+          "alias": "alcohol",
+          "meta": "@alcohol"
+        }
+      ],
+      "count": 0,
+      "id": "4ca77c85-80b6-4ec5-92a6-a5c7a7f3e4d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want ",
+          "userDefined": false
+        },
+        {
+          "text": "beer",
+          "userDefined": false,
+          "alias": "alcohol",
+          "meta": "@alcohol"
+        }
+      ],
+      "count": 0,
+      "id": "6242ca54-3b26-4ab7-8d62-a4280d3570a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you send me ",
+          "userDefined": false
+        },
+        {
+          "text": "wine",
+          "userDefined": false,
+          "alias": "alcohol",
+          "meta": "@alcohol"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1ba734e3-05f4-4c81-bd28-16dddf3d4469",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you serve ",
+          "userDefined": false
+        },
+        {
+          "text": "alcohol",
+          "userDefined": false,
+          "alias": "alcohol",
+          "meta": "@alcohol"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "56c655f8-10c3-4d99-a9a9-ba9c2bce6fdf",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,153 @@
+{
+  "id": "4718c7ce-01b0-4358-802f-436c26efad88",
+  "name": "timings",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Our restaurant will provide service from 10 am to 10 pm",
+            "We work from 10 AM to 10 PM",
+            "Our timing are from 10 AM to 10 PM!",
+            "you can visit our restaurant between 10 am and 10 pm",
+            "We serve from 10 AM to 10 PM!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "till when your restaurant will be open?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be00794d-7630-4411-a962-424d49f30d4f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Till when you will be open?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "411083dc-040f-4527-888b-938ca8567e73",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "restaurant timings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c07b9fde-94da-4583-aabf-930fb7c9f19d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are your shop's timings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c84f2ea0-4b18-4cd8-9d7d-5cd663a175f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "when do you close?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8b5b2444-6c54-4a73-8899-790f8737c457",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "when do you open?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3379884-989b-4caa-9580-354044da3333",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are your working hours",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1ca9555f-ac3c-449e-a437-d0c3b0725075",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is the closing time and opening time of your restaurant",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eab7507f-1b93-4329-ae3a-b6093274e8e7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is your restaurant timings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f3586162-f78b-4dc0-83e9-2b803f1d59dd",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

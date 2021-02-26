@@ -1,0 +1,261 @@
+{
+  "id": "e4451330-52d6-4962-a20c-cea14ac3248c",
+  "name": "order_gbread",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "size",
+          "dataType": "@size",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Which size?",
+            "Please tell the size?",
+            "Small, medium or large?"
+          ],
+          "value": "$size",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "sauce_type",
+          "dataType": "@sauce_type",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Which sauce do you want?",
+            "Do you want a barbecue, schezwan, hot or mexican sauce?"
+          ],
+          "value": "$sauce_type",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "condition": "",
+          "title": "Garlic Bread",
+          "subtitle": "Hot and Fresh Garlic Bread!",
+          "image": {
+            "url": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/5/28/2/TM1A14F_Garlic-Bread_s4x3.jpg.rend.hgtvcom.616.462.suffix/1433523400627.jpeg",
+            "accessibilityText": "Garlic Bread"
+          },
+          "buttons": [
+            {
+              "openUrlAction": {}
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Garlic bread is on its way!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "send me a ",
+          "userDefined": false
+        },
+        {
+          "text": "large",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " garlic bread with ",
+          "userDefined": false
+        },
+        {
+          "text": "tomato sauce",
+          "userDefined": false,
+          "alias": "sauce_type",
+          "meta": "@sauce_type"
+        }
+      ],
+      "count": 0,
+      "id": "ec1283de-93f8-47db-9c1d-72630aa66cc8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need a ",
+          "userDefined": false
+        },
+        {
+          "text": "small",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " garlic bread with ",
+          "userDefined": false
+        },
+        {
+          "text": "hot sauce",
+          "userDefined": false,
+          "alias": "sauce_type",
+          "meta": "@sauce_type"
+        }
+      ],
+      "count": 0,
+      "id": "cf598eac-ada9-4061-b96c-61896665475b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i need a ",
+          "userDefined": false
+        },
+        {
+          "text": "regular",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " garlic bread with ",
+          "userDefined": false
+        },
+        {
+          "text": "mexican sauce",
+          "userDefined": false,
+          "alias": "sauce_type",
+          "meta": "@sauce_type"
+        }
+      ],
+      "count": 0,
+      "id": "725777e3-ed83-4495-a092-6d5f33c05a4b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a garlic bread",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d69977e7-62f6-4ea3-adf2-f9aab1fc3e7c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a ",
+          "userDefined": false
+        },
+        {
+          "text": "large",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " garlic bread with ",
+          "userDefined": false
+        },
+        {
+          "text": "barbecue sauce",
+          "userDefined": false,
+          "alias": "sauce_type",
+          "meta": "@sauce_type"
+        }
+      ],
+      "count": 0,
+      "id": "7e7e6905-bd95-41ad-be7c-f7cb0e8aed96",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a ",
+          "userDefined": false
+        },
+        {
+          "text": "medium",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " garlic bread",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "584906d5-44aa-4ed3-ab23-6fc845a9e6b4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want a ",
+          "userDefined": false
+        },
+        {
+          "text": "small",
+          "userDefined": false,
+          "alias": "size",
+          "meta": "@size"
+        },
+        {
+          "text": " garlic bread",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2f96393b-cc5b-47b7-afe3-fdf1f64b681f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

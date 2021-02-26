@@ -1,0 +1,103 @@
+{
+  "id": "5f33e25f-dd36-4ee5-a846-1f1544f8e7f9",
+  "name": "what_can_you_do",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I can reserve tables for you, deliver myriads of pizzas, different types of coffees and of course the very likable garlic bread!",
+            "I can Reserve tables, send you hot pizzas along with a fantastic range  of coffees!  I can even answer your queries regarding the restaurant!",
+            "Send you coffees, pizzas, garlic bread and answer any question you have with regards to the restaurant"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what do you do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7453dfe3-4692-4bfb-9718-6484f47b1161",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to know what can you do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f29e8fe1-4c99-4b47-8e40-6edc9f2d6706",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me what can you do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c15d5bb8-8bb7-4d7a-8351-c79423183ff4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what all can you do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38bdd41b-6f08-4f4e-a4d5-092f39ddffa6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what can you do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "98918619-d645-4181-98ee-ca02ee3e417e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

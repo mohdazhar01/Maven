@@ -1,0 +1,561 @@
+{
+  "id": "4c3f6e1f-4286-45c4-b8a5-39d6ba2c6381",
+  "name": "reserve_table",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "reserve_table-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "please enter for how many people",
+            "for how many people?"
+          ],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "date",
+          "dataType": "@sys.date",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "on what date?",
+            "date?"
+          ],
+          "value": "$date",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "time",
+          "dataType": "@sys.time",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "Please tell the time!",
+            "Please tell the date and time",
+            "At What time and date?"
+          ],
+          "value": "$time",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Okay! Your booking for $number people on $date at $time is confirmed!",
+            "Alright! your reservation for $number people on $date at $time is confirmed!"
+          ]
+        }
+      ],
+      "resetContexts": true
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book a table for ",
+          "userDefined": false
+        },
+        {
+          "text": "seven",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " people at ",
+          "userDefined": false
+        },
+        {
+          "text": "3 PM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "tomorrow",
+          "userDefined": false,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "31a5ecf5-0650-4b35-9463-485f45032efd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book a table for ",
+          "userDefined": false
+        },
+        {
+          "text": "seven",
+          "userDefined": true,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " people at ",
+          "userDefined": false
+        },
+        {
+          "text": "3 PM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "4a8f8454-c1c5-42aa-a249-a4d1050eb753",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book a table for ",
+          "userDefined": false
+        },
+        {
+          "text": "seven",
+          "userDefined": true,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " people at ",
+          "userDefined": false
+        },
+        {
+          "text": "11 45 AM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "tomorrow",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "99bb4895-6f4b-49eb-a7ed-92789886c839",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book a table for ",
+          "userDefined": false
+        },
+        {
+          "text": "two",
+          "userDefined": true,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " at ",
+          "userDefined": false
+        },
+        {
+          "text": "9 PM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " the ",
+          "userDefined": false
+        },
+        {
+          "text": "day after tomorrow",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "c2507c30-8f66-4e7e-a6b0-c11cc9b1d357",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "make a reservation for ",
+          "userDefined": false
+        },
+        {
+          "text": "four",
+          "userDefined": true,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " people for ",
+          "userDefined": false
+        },
+        {
+          "text": "7 PM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "tomorrow",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "308b265c-2121-48c4-bd9a-94a20a792fbe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book table for ",
+          "userDefined": false
+        },
+        {
+          "text": "three",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " at ",
+          "userDefined": false
+        },
+        {
+          "text": "4 PM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Today",
+          "userDefined": false,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "26b48f66-b478-471d-8908-b1b6f6e13341",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book a table for ",
+          "userDefined": false
+        },
+        {
+          "text": "three",
+          "userDefined": true,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " at ",
+          "userDefined": false
+        },
+        {
+          "text": "7 PM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "userDefined": false,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "e16cc6e1-83a4-4594-bb7d-f98484e1eb8f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book a table for ",
+          "userDefined": false
+        },
+        {
+          "text": "two",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "03879ac2-fbcf-4bf0-9f0a-800104ef5913",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book a table for ",
+          "userDefined": false
+        },
+        {
+          "text": "three",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "54a27396-c337-43c4-81e1-ed6c5f04c478",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "make a reservation for ",
+          "userDefined": false
+        },
+        {
+          "text": "seven",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " people",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "87cdb156-5658-4421-9fec-35e9fc7a145b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to make a reservation for ",
+          "userDefined": false
+        },
+        {
+          "text": "6",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " people for ",
+          "userDefined": false
+        },
+        {
+          "text": "tonight",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "8 PM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        }
+      ],
+      "count": 0,
+      "id": "bf3e32f8-e2fc-493c-a632-2c3c521a7da7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "reserve a table for ",
+          "userDefined": false
+        },
+        {
+          "text": "5",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "3aecc469-916a-4336-98e8-cb83b37aa120",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "reserve a table for ",
+          "userDefined": false
+        },
+        {
+          "text": "three",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " at ",
+          "userDefined": false
+        },
+        {
+          "text": "2 PM",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "tomorrow",
+          "userDefined": true,
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "count": 0,
+      "id": "f1dee89d-3eb0-4516-87db-56151809c29b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to reserve a table for ",
+          "userDefined": false
+        },
+        {
+          "text": "4",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " at 1 PM ",
+          "userDefined": false
+        },
+        {
+          "text": "day after tomorrow",
+          "userDefined": true,
+          "alias": "time",
+          "meta": "@sys.time"
+        }
+      ],
+      "count": 0,
+      "id": "710e73c5-ffe0-4c53-a46e-5f6353ad813e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to reserve a table for ",
+          "userDefined": false
+        },
+        {
+          "text": "two",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "60b7ff87-73f7-42a0-8c31-1b71b5356902",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

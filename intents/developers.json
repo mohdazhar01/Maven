@@ -1,0 +1,104 @@
+{
+  "id": "a3c1cdd0-f9f0-48a3-b299-654601fd96e8",
+  "name": "developers",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I was developed by Burhan, Azhar and Bharath",
+            "I was engineered by Burhan, Azhar and Bharath",
+            "Burhan, Azhar and Bharath developed me!",
+            "The Trio - Burhan, Azhar and Bharath"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who built you?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "af39ceae-c39a-4146-9b44-bc246846a6cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who made you?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "25b2a3ff-dad9-476d-8f64-acdb8b2269dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who engineered you?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c554a107-0706-4f5e-b16c-c82092b5fd88",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who created you?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2bde782f-abbd-4632-8bae-baaf67de3ff5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who developed you?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "523f5819-66b9-4b0b-beca-b73def3db6d2",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,90 @@
+{
+  "id": "46881832-beb7-42d3-956e-b9949c864104",
+  "name": "who_are_you",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "I am MAVEN! An AI Virtual Assistant who'll help you order Tasty Pizzas, Garlic Bread and Coffees",
+            "MAVEN here! I am an AI Virtual Assistant who's here to help you order Pizza, Garlic Bread and Coffee!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who r u",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c00a7e7b-e02b-4f30-9a2a-ddf8c6487b98",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "may i know who are you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "73a01c35-8564-484b-a02a-329a95936f58",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are you?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "483688e1-e31e-435c-8576-c7816018e1f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "who are you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dd1927c0-9d78-4829-a593-61352ed7fb72",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

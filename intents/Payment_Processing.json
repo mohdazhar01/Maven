@@ -1,0 +1,107 @@
+{
+  "id": "005e4f12-fef3-4eb9-9f31-26f08e0e612c",
+  "name": "Payment_Processing",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "payment"
+  ],
+  "contexts": [
+    "payment"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "payment",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "type_of_card",
+          "dataType": "@type_of_card",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$type_of_card",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Enter your Card Number",
+            "Please Enter your Card Number"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ATM Card",
+          "userDefined": true,
+          "alias": "type_of_card",
+          "meta": "@type_of_card"
+        }
+      ],
+      "count": 0,
+      "id": "350f025e-5cb3-4110-ae3e-3631f5f73d35",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Credit Card",
+          "userDefined": true,
+          "alias": "type_of_card",
+          "meta": "@type_of_card"
+        }
+      ],
+      "count": 0,
+      "id": "fba92a6d-bd59-4638-a2f2-d37a4995fa6c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Debit Card",
+          "userDefined": true,
+          "alias": "type_of_card",
+          "meta": "@type_of_card"
+        }
+      ],
+      "count": 0,
+      "id": "aa82efa8-d2f5-4d81-b827-91d5549d8a2d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
